@@ -1,0 +1,5 @@
+.idea/
+/coderetreat-2015-ws
+*.iml
+/build
+/node_modules
