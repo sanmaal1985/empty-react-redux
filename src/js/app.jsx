@@ -20,6 +20,7 @@ import Main from './components/main.react';
 injectTapEventPlugin();
 
 
+/*
 const store = createStore(
     combineReducers({
         ...reducers,
@@ -29,9 +30,14 @@ const store = createStore(
 
 const history = syncHistoryWithStore(browserHistory, store);
 
+*/
+/*
 ReactDOM.render(
     <Provider store={store}>
         <Router history={history}>
             <Route path="/" component={Main}/>
         </Router>
-    </Provider>, document.getElementById('react--app'));
+    </Provider>, document.getElementById('react--app'));*/
+
+
+ReactDOM.render(<Main/>, document.getElementById('react--app'));
